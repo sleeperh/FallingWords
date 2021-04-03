@@ -472,11 +472,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 105464379}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -360}
+  m_LocalScale: {x: 3.6, y: 3.6, z: 3.6}
   m_Children: []
-  m_Father: {fileID: 1797793838}
-  m_RootOrder: 0
+  m_Father: {fileID: 554223377}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &112976290
 GameObject:
@@ -562,7 +562,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 139934297}
         m_TargetAssemblyTypeName: Credits, Assembly-CSharp
-        m_MethodName: CreditsInterface
+        m_MethodName: EnableCredits
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1289,8 +1289,9 @@ RectTransform:
   - {fileID: 112976291}
   - {fileID: 1209367861}
   - {fileID: 1790330303}
+  - {fileID: 105464381}
   m_Father: {fileID: 1797793838}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -3574,7 +3575,6 @@ Transform:
   m_LocalPosition: {x: 1000, y: 0, z: 1000}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 105464381}
   - {fileID: 554223377}
   m_Father: {fileID: 1575375740}
   m_RootOrder: 0

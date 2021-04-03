@@ -31,10 +31,12 @@ public class Credits : MonoBehaviour
             SceneManager.LoadScene("GameScene_HighscoreTable");
             
         }
-        
-
-
 
     }
 
+    public void EnableCredits()
+    {
+        HighScoresButton.SetActive(true);
+        CreditsPanel.SetActive(true);
+    }
 }
